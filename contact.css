@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: aliceblue;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  min-height: 85px;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: antiquewhite;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.heymessage {
+  text-transform: capitalize;
+  text-decoration: wavy;
+  font-style: italic;
+}
+
+.contact {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: auto;
+  margin: 100px 50px 80px 50px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  line-height: 35px;
+  background-color: gainsboro;
+  
+}
+
+.contact-left {
+  width: 70%;
+  margin-left: 100px;
+
+}
+
+.contact-right {
+  width: 50%;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 100;
+  text-transform: capitalize;
+  line-height: 7px;
+  font-style: italic;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: x-large;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-left: 150px;
+}
+
+label {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+#inputarea {
+  padding: 5px 10px 5px 10px;
+}
+
+
+
+#inputarea1 {
+  padding: 8px 50px 8px 50px  ;
+}
+
+button {
+  margin: 15px 0px 15px;
+  padding: 3px 70px 3px 70px;
+  border-radius: 5px;
+  background-color: royalblue;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px lightcyan;
+}
+
+button:hover {
+  background: lightgoldenrodyellow;
+}

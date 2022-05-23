@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  min-height: 85px;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: antiquewhite;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.heymessage {
+  text-transform: capitalize;
+  text-decoration: wavy;
+  font-style: italic;
+}
+
+.forms {
+  margin: 280px 0px 0px 130px;
+  line-height: 30px;
+  text-transform: capitalize;
+  
+  }
+  
+  @media (max-width) {
+    .forms {
+      margin: 180px 0px 0px 220px;
+    }
+  }
+
+
+
+input {
+  padding: 8px 70px 8px 70px;
+
+}
+
+button {
+  margin-top: 30px;
+  padding: 3px 130px 3px 130px;
+  background-color: rgb(80, 80, 234);
+  text-transform: uppercase;
+  font-weight: 600;
+}
